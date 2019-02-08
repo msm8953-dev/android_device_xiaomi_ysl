@@ -27,6 +27,7 @@ TARGET_NO_RECOVERY := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
+TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CONFIG := tissot_defconfig
 
 # Partitions
